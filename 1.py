@@ -1,8 +1,8 @@
 from telegram.ext import Application
 import asyncio
 
-TOKEN = "7534100403:AAFEQefPJjEGGSddzmxO8z3YdDDxAcK7vXA"
-GROUP_ID = -1002897588409  # آیدی عددی گروه (با منفی شروع میشه)
+TOKEN = "your token"
+GROUP_ID = -100  # آیدی عددی گروه (با منفی شروع میشه)
 
 async def save_admins_on_startup(app: Application):
     bot = app.bot

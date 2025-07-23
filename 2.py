@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 
-TOKEN = "7534100403:AAFEQefPJjEGGSddzmxO8z3YdDDxAcK7vXA"
+TOKEN = "your token"
 
 async def get_chat_id(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat = update.effective_chat
